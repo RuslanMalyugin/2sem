@@ -129,4 +129,5 @@ int main()
     min_way = best_way(BFS(curr_graph, matilda - 1),BFS(curr_graph, leon - 1),BFS(curr_graph, milk - 1));
     std::cout << min_way;
     return 0;
+    
 }
